@@ -15,7 +15,7 @@ GEM
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
-    rake (10.5.0)
+    rake (12.3.3)
     sinatra (1.4.7)
       rack (~> 1.5)
       rack-protection (~> 1.4)
@@ -39,7 +39,7 @@ DEPENDENCIES
   adp-product-userinfo
   minitest (~> 5.2)
   rack-test (~> 0.6)
-  rake (~> 10.0)
+  rake (~> 12.3)
   sinatra (~> 1.4)
   sinatra-config-file
 
