@@ -1,3 +1,10 @@
+## ADP Marketplace Partners
+
+There are a few pre-requesites that you need to fullfill in order to use this library:
+- Replace the certifcates in this library with the ones you recieved from the [CSR Tool](https://apps.adp.com/apps/165104)
+- Update the client id and client secret with the ones supplied in your credentials document PDF
+- Update endpoints from ```https://iat-api.adp.com``` and ```https://iat-accounts.adp.com``` to  ```https://api.adp.com``` and ```https://accounts.adp.com```.
+
 # ADP Userinfo Product Client Library for Ruby
 
 The ADP Userinfo Product Client Library is used to obtain basic information about the user that is logged-in to the ADP application. The Library includes a sample demo client application that can be run out-of-the-box to connect to the ADP Marketplace API **test** gateway. This library has a dependancy on the adp-connection library. Installing this library also installs the latest version of the adp-connection library, if not previously installed.
@@ -219,7 +226,7 @@ Automated unit tests are available in tests folder. To run the tests, please com
 rake spec
 ```
 
-The above will also display tests results. 
+The above will also display tests results.
 
 ## Code Coverage ##
 
